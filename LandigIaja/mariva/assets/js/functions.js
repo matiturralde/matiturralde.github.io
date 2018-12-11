@@ -67,10 +67,10 @@ function simularCreditoCuotas() {
 
     switch (plazo) {
         case 'false':
-            cuotaMax = monto *  0.204152178;
+            cuotaMax = monto * 0.206577089589019;
             break;
         case 'true':
-            cuotaMax = monto * 0.120488558;
+            cuotaMax = monto * 0.122245549919824;
             break;
         default:
             break;
