@@ -1,0 +1,29 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  width: auto;
+  vertical-align: middle;
+  margin-top: 0px;
+  height: 5.6rem;
+}
+
+.App-header {
+  background-color: #f8f8f8;
+  height: 5.7rem;
+  color: white;
+  border-bottom-width: 1px;
+  border-color: #e7e7e7;
+  border-bottom-style: solid;
+}
+
+.App-title {
+  vertical-align: middle;
+  float: right;
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}

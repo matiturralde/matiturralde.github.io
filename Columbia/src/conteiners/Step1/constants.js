@@ -1,0 +1,6 @@
+export const SEND_ACTION = 'src/Step1/SEND_ACTION'
+export const ADD_MAIL = 'src/Step1/ADD_MAIL'
+export const PIN_ACTION = 'src/Step1/PIN_ACTION'
+export const MESSAGE_ACTION = 'src/Step1/MESSAGE_ACTION'
+export const GET_DESTINATION_ACTION = 'src/Step1/GET_DESTINATION_ACTION'
+export const SET_DESTINATION_ACTION = 'src/Step1/SET_DESTINATION_ACTION'
