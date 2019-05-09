@@ -1,2 +1,0 @@
-export const SAVE_PASS_ACTION = 'src/Step3/SAVE_PASS_ACTION'
-export const MESSAGE_STEP3_ACTION = 'src/Step3/MESSAGE_STEP3_ACTION'

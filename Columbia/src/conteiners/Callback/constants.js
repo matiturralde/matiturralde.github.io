@@ -1,3 +1,0 @@
-export const VALIDATE_ACTION = 'src/Login/VALIDATE_ACTION'
-export const SET_ISLOGGEDIN_ACTION = 'src/Login/SET_ISLOGGEDIN_ACTION'
-export const STEP_REDIRECT_ACTION = 'src/Login/STEP_REDIRECT_ACTION'

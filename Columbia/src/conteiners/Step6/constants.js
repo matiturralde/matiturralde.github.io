@@ -1,2 +1,0 @@
-export const SEND_EMAIL_MAIL = 'src/Step6/SEND_EMAIL_MAIL'
-export const MESSAGE_STEP6_ACTION = 'src/Step6/MESSAGE_STEP6_ACTION'
