@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<!-- Estilos -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Credility Back</title>
+    <meta name="description" content="Sufee Admin - HTML5 Admin Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <link rel="shortcut icon" href="../static/images/favicon.ico">
+    <link rel="stylesheet" href="../static/vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="../static/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="../static/vendors/selectFX/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="../static/vendors/jqvmap/dist/jqvmap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+
+<!-- Contenido -->
+
+<body class="bg-dark">
+
+    <div class="sufee-login d-flex align-content-center flex-wrap">
+        <div class="container">
+            <div class="login-content">
+                <div class="login-logo">
+                    <a href="{{ url_for('index') }}">
+                        <img class="align-content" src="../static/images/logo.png" alt="" width="220">
+                    </a>
+                </div>
+                <div class="login-form">
+                    <form name="login_form" action="" method="post">
+                        <div class="form-group">
+                            <label>Usuario</label>
+                            <input name="mail" id="mail" type="mail" class="form-control" placeholder="e-mail" value="{{request.form.mail }}">
+                        </div>
+                        <div class="form-group">
+                            <label>Contraseña</label>
+                            <input name="password" id="password" type="password" class="form-control" placeholder="contraseña"value="{{request.form.password}}">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                            <input type="checkbox"> Recordarme
+                        </div>
+                        {% if error %}
+                        <p class="error">{{ error }}</p>
+                        {% endif %}
+                        <!--
+                        </label>
+                                <label class="pull-right">
+                            <a href="#">Forgotten Password?</a>
+                        </label>
+                        -->
+                        <div>
+                            <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" value="Login" >Ingresar</button>
+                        </div>
+                        <!--
+                        <div class="social-login-content">
+                            <div class="social-button">
+                                <button type="button" class="btn social facebook btn-flat btn-addon mb-3"><i class="ti-facebook"></i>Sign in with facebook</button>
+                                <button type="button" class="btn social twitter btn-flat btn-addon mt-2"><i class="ti-twitter"></i>Sign in with twitter</button>
+                            </div>
+                        </div>
+                        <div class="register-link m-t-15 text-center">
+                            <p>Don't have account ? <a href="#"> Sign Up Here</a></p>
+                        </div>
+                        -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Js -->
+    <script src="../static/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../static/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../static/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../static/js/main.js"></script>
+    <script src="../static/vendors/chart.js/dist/Chart.bundle.min.js"></script>
+    <script src="../static/js/dashboard.js"></script>
+    <script src="../static/js/widgets.js"></script>
+    <script src="../static/vendors/jqvmap/dist/jquery.vmap.min.js"></script>
+    <script src="../static/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <script src="../static/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script>
+        (function($) {
+            "use strict";
+
+            jQuery('#vmap').vectorMap({
+                map: 'world_en',
+                backgroundColor: null,
+                color: '#ffffff',
+                hoverOpacity: 0.7,
+                selectedColor: '#1de9b6',
+                enableZoom: true,
+                showTooltip: true,
+                values: sample_data,
+                scaleColors: ['#1de9b6', '#03a9f5'],
+                normalizeFunction: 'polynomial'
+            });
+        })(jQuery);
+    </script>
+
+</body>
+
+</html>
