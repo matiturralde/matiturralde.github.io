@@ -309,7 +309,7 @@ ol {
 -----------------------*/
 
 #navbar {
-	background: transparent;
+	background: rgba(255, 255, 255, 0.7);
 	height: 4.5em;
   }
 
@@ -354,6 +354,13 @@ ol {
 	padding: .5rem 1.5rem;
 	color: #fff;
   }
+
+
+  #navbar .navbar-toggler-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249, 105, 14, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")}
+
+
+ #navbar .collapse.show{background: #f9680ee1}
+ 
 
 
 .header-section {
@@ -2324,10 +2331,10 @@ ol {
 	}
 
 	.site-logo {
-		width: 200px;
+		width: 150px;
 		justify-content: center;
 		margin-left: 10px;
-		margin-top: -10px;
+		margin-top: -4px;
 	}
 	.header-section-site-btn {
 		margin-top: -15px;
