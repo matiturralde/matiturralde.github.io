@@ -309,8 +309,8 @@ ol {
 -----------------------*/
 
 #navbar {
-	background: rgba(255, 255, 255, 0.7);
-	height: 4.5em;
+	/*background: rgba(255, 255, 255, 0.7);*/
+
   }
 
   #navbar.scrolled {
@@ -356,10 +356,16 @@ ol {
   }
 
 
-  #navbar .navbar-toggler-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249, 105, 14, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")}
+  #navbar .navbar-toggler-icon{
+	  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249, 105, 14, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+	}
 
 
- #navbar .collapse.show{background: #f9680ee1}
+#navbar .collapse.show {
+	background: #ffff;
+	/*margin-top: 24px;*/
+	opacity: 0.8;
+}
  
 
 
@@ -391,7 +397,7 @@ ol {
 
 
 .site-logo {
-	width: 200px;
+	width: 180px;
 	float: left;
 	vertical-align: middle;
 	margin-left: 0px;
@@ -1244,12 +1250,6 @@ ol {
 	margin-left: 0px;
 }
 
-.site-logo {
-	margin-top: -5px;
-	width: 200px;
-	float: left;
-	margin-left: 0px;
-}
 
 .footer-text {
 	color: #acb9cc;
@@ -2248,10 +2248,10 @@ ol {
 		margin-top: 20px;
 	}
 	.site-logo {
-		width: 200px;
+		width: 150px;
 		justify-content: center;
+		vertical-align: middle;
 		margin-left: 10px;
-		margin-top: -15px;
 
 	}
 	.header-section-site-btn {
@@ -2333,8 +2333,9 @@ ol {
 	.site-logo {
 		width: 150px;
 		justify-content: center;
+		vertical-align: middle;
 		margin-left: 10px;
-		margin-top: -4px;
+		
 	}
 	.header-section-site-btn {
 		margin-top: -15px;
