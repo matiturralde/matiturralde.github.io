@@ -643,7 +643,7 @@ ol {
 .features-section {
 	padding-top: 30px;
 	padding-bottom: 50px;
-	padding-left: 50px;
+	align-items: center;
 
 }
 .features-section .container {
@@ -655,15 +655,21 @@ ol {
 	padding-top: 20px;
 }
 
+.feature-icono {
+	text-align:  center;
+	padding-bottom: 5px;
+}
+
 .feature i {
 	font-size: 35px;
-	float: left;
+	text-align:  center;
 	vertical-align: center;
 	padding-top: 0px;
 }
 
 .feature .feature-content {
-	padding-left: 50px;
+	position: relative;
+	padding-left: 0px;
 }
 
 .feature .feature-content h4 {
@@ -1864,8 +1870,7 @@ ol {
 	}
 	.about-img {
 		width: 500px;
-	}
-	
+	}	
 }
 
 @media (min-width: 1199px) and (max-width: 1390px) {
@@ -1945,6 +1950,15 @@ ol {
 	}
 }
 
+
+@media only screen (max-width: 768px) {
+	.feature .feature-content h5 {
+		text-align: center;
+		max-width: 180px;
+	}
+}
+
+
 /* Tablet :768px. */
 
 @media only screen and (min-width: 880px) and (max-width: 991px) {
@@ -1987,8 +2001,6 @@ ol {
 	.hero-section .site-btn {
 		margin-left: -15px;
 	}
-
-
 	
 	.heroplatform-text h2 {
 		font-size: 45px;
@@ -2000,6 +2012,7 @@ ol {
 		right: -44%;
 		background-size: contain;
 	}
+
 	.about-img {
 		position: relative;
 		display: block;
