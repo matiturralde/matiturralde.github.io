@@ -589,6 +589,7 @@ ol {
 	top: 8px;
 	left: 90px;
 	width: 500px;
+	padding-right: 3rem;
 }
 
 .about-spad {
@@ -891,8 +892,7 @@ ol {
 	-webkit-box-flex:1;
 	-ms-flex-positive:1;
 	flex-grow:1;
-	max-width:100%}
-
+	max-width:100%
 }
 
 
