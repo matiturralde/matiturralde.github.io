@@ -456,8 +456,6 @@ ol {
 	overflow: hidden;
 }
 
-
-
 .hero-text {
 	padding-top: 80px;
 }
@@ -519,7 +517,6 @@ ol {
 	left: 18px;
 }
 
-
 .heroplatform-text {
 	padding-top: 80px;
 }
@@ -556,7 +553,6 @@ ol {
 	margin-right: 8px;
 	margin-bottom: 20px;
 }
-
 
 /*---------------------
   About Section
@@ -877,7 +873,7 @@ ol {
 	align-items: center;
 	vertical-align: middle;
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 	margin-top: -40px;
 
 }
@@ -1019,41 +1015,40 @@ ol {
 	width: 150px;
 	vertical-align: middle;
 	justify-content: center;
+	text-align: center;
 	margin-left: 0px;
 	margin-top: 0px;
 	padding-top: 20px;
-
 }
 
 .team-logos-2 {
 	width: 140px;
 	vertical-align: middle;
 	justify-content: center;
+	text-align: center;
 	margin-left: 0px;
 	margin-top: -10px;
-	margin-left: 10px;
 	padding-top: 20px;
-
 }
 
 .team-logos-3 {
 	width: 120px;
 	vertical-align: middle;
 	justify-content: center;
-	margin-left: 30px;
+	text-align: center;
+	margin-left: 0px;
 	margin-top: 0px;
 	padding-top: 20px;
-
 }
 
 .team-logos-4 {
 	width: 170px;
 	vertical-align: middle;
 	justify-content: center;
+	text-align: center;
 	margin-left: 0px;
 	margin-top: 0px;
 	padding-top: 20px;
-
 }
 
 
@@ -2037,7 +2032,6 @@ ol {
 
 	.hero-text h4 {
 		margin-left: -15px;
-
 	}
 
 	.hero-section .site-btn {
@@ -2046,7 +2040,16 @@ ol {
 	
 	.heroplatform-text h2 {
 		font-size: 45px;
+		margin-left: -15px;
 	}
+	.heroplatform-text h4 {
+		margin-left: -15px;
+	}
+	.heroplatform-section .site-btn {
+		margin-left: -15px;
+	}
+
+
 	.process-step:after {
 		width: 154px;
 		height: 35px;
@@ -2206,11 +2209,15 @@ ol {
 	}
 	.heroplatform-text h2 {
 		font-size: 40px;
+		max-width: 500px;
+		text-align: center;
 	}
 	.heroplatform-section {
 		height: auto;
 		padding-bottom: 100px;
 		padding-top: 40px;
+		align-items: center;
+		text-align: center;
 		background-position: right 50% top;
 	}
 
@@ -2222,6 +2229,10 @@ ol {
 		font-size: 35px;
 	}
 	.about-section{
+		text-align: center;
+	}
+
+	.aboutplatform-section{
 		text-align: center;
 	}
 	
